@@ -9,7 +9,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { useState } from "react";
-import { MONTHLY_SALES_DATA } from "../../constants/sales";
+import { MONTHLY_SALES_DATA } from "../../constants/Sales";
 
 const SalesOverviewChart = () => {
   const [selectedTimeRange, setSelectedTimeRange] = useState("This Month");

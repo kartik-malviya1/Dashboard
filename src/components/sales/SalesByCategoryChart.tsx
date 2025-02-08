@@ -7,7 +7,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import { COLORS, SALES_CATEGORY } from "../../constants/sales";
+import { COLORS, SALES_CATEGORY } from "../../constants/Sales";
 
 const SalesByCategoryChart = () => {
   return (
