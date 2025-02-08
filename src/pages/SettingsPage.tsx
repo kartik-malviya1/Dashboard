@@ -1,8 +1,11 @@
+import Header from "../components/common/Header";
 
 const SettingsPage = () => {
   return (
-    <div>SettingsPage</div>
-  )
-}
+    <div className="flex-1 overflow-auto relative z-10">
+      <Header title="Settings" />
+    </div>
+  );
+};
 
-export default SettingsPage
+export default SettingsPage;

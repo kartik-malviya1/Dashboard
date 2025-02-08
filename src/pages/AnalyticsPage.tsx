@@ -1,8 +1,11 @@
+import Header from "../components/common/Header";
 
 const AnalyticsPage = () => {
   return (
-    <div>AnalyticsPage</div>
-  )
-}
+    <div className="flex-1 overflow-auto relative z-10">
+      <Header title="Analytics" />
+    </div>
+  );
+};
 
-export default AnalyticsPage
+export default AnalyticsPage;
